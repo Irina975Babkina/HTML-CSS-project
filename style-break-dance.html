@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break Dance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="logo">
+            <a href="index.html" title="&#127968;" target="_blank">
+                <svg width="110" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="35" fill="#5A98F2" stroke="#233348" style="font-size: 35px;">Flash</text>
+                    <text x="10" y="55" fill="#458FF6" stroke="#233348" style="font-size: 35px;">dance</text>
+                </svg>
+            </a>
+            <p class="logo__text">Школа танца</p>
+        </div>
+        <ul class="menu" id="nav">
+            <li class="menu__item">
+                <a href="about-us.html" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item active">
+                <a href="dance-styles.html" class="menu__link">Направления</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="style-baby_club.html" class="link">Baby-Club</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-hip-hop.html" class="link">Hip-Hop</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-break-dance.html" class="link">Break Dance</a>
+                    </li>
+                    <li class="submenu__item1">
+                    <a href="style-dance-show.html" class="link">Dance Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-street-show.html" class="link">Street Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-jazz-funk.html" class="link">Jazz Funk</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a href="teachers.html" class="menu__link">Преподаватели</a>
+            </li>
+            <li class="menu__item">
+                <a href="timetable.html" class="menu__link">Расписание</a>
+            </li>
+            <li class="menu__item">
+                <a href="contacts.html" class="menu__link">Контакты</a>
+            </li>
+        </ul>
+        <p>
+            <button type="button" class="menu-button" onclick="openMenu()">☰</button>
+        </p>
+    </header>
+    <main class="main container">
+
+        <h1 class="main__header">Break Dance</h1>
+        <div class="content-style">
+            <div class="content-style__video">
+                <p class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8LnAvegJ-2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </p>
+            </div>
+            <div class="content-style__text">
+                <p class="text">
+                    Брейк-данс сегодня считается одним из наиболее популярных молодежных танцев. Он включает в себя элементы акробатики, аэробики, силовых трюков и 
+                    пластики. Сам танец пришел к нам из Нью-Йорка, где зародился еще в шестидесятых годах ХХ века.
+                </p>
+                <p class="text">
+                    На протяжении десятилетий с момента возникновения стиля в Нью-Йорке брейк-данс удерживается позиции самого динамичного, популярного и 
+                    завораживающего танца. Данное течение получило широкую популярность среди молодежи, а в последнее время и среди детей. С помощью данного 
+                    танцевального искусства дети учатся импровизировать, развивают творческое мышление, чувство ритма и формируют собственный стиль.
+                </p>
+                <p class="text">
+                    Брейк-данс благоприятно воздействуют на развитие силы, гибкости, равновесия и выносливости. Таким образом, у ребенка с ранних лет формируется 
+                    хорошая платформа для дальнейшей двигательной активности. Брейк для детей можно назвать завораживающим зрелищем — ваш ребенок всегда будет в 
+                    центре внимания. Такие танцоры зажигают своей энергией и харизмой. С одной стороны мы предлагаем вам тяжелый спорт, с другой творчество и искусство.
+                </p>
+            </div>
+        </div>
+        <h2 class="average__header">Стоимость</h2>
+        <div class="price-list">
+            <div class="price-list__lesson text-large">
+                <p>Пробное занятие</p>
+                <p>бесплатно</p>
+            </div>
+            <div class="price-list__lesson text-large">
+                <p>Одно занятие</p>
+                <p>12 бел. рубл.</p>
+            </div>
+            <div class="price-list__lesson text-large">
+                <p>4 занятия<p>
+                <p>44 бел. рубл.<p>
+            </div>
+            <div class="price-list__lesson text-large">
+                <p>8 занятий</p>
+                <p>80 бел. рубл.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper-footer container">
+            <div class="footer__text">
+                <p class="footer__text__header">Наш адрес:</p>
+                <p class="footer__text__main">г. Минск, ул. Немига,3</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Наш телефон:</p>
+                <p class="footer__text__main">+37529-312-05-05</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Мы в социальных сетях:</p>
+                <div class="buttons">
+                    <div class="button"><span class="icon-vk"></span></div>
+                    <div class="button"><span class="icon-instagram"></span></div>
+                    <div class="button"><span class="icon-facebook2"></span></div>
+                </div>
+            </div>
+            <div class="copy">
+                <p class="footer__text__header">2023 &copy;Школа танца &#34;Flash Dance&#34;</p>
+                <p class="footer__text__main">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slider').slick({
+            autoplay: 5000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 1,
+            infinite: true,
+        });
+        function openMenu() {
+            const toOpenMenu = document.getElementById("nav");
+            toOpenMenu.classList.toggle("open");
+        }
+    </script>
+</body>
+</html>

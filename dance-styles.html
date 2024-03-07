@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance stylees</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="logo">
+            <a href="index.html" title="&#127968;" target="_blank">
+                <svg width="110" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="35" fill="#5A98F2" stroke="#233348" style="font-size: 35px;">Flash</text>
+                    <text x="10" y="55" fill="#458FF6" stroke="#233348" style="font-size: 35px;">dance</text>
+                </svg>
+            </a>
+            <p class="logo__text">Школа танца</p>
+        </div>
+        <ul class="menu" id="nav">
+            <li class="menu__item">
+                <a href="about-us.html" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item active">
+                <a href="dance-styles.html" class="menu__link">Направления</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="style-baby_club.html" class="link">Baby-Club</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-hip-hop.html" class="link">Hip-Hop</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-break-dance.html" class="link">Break Dance</a>
+                    </li>
+                    <li class="submenu__item1">
+                    <a href="style-dance-show.html" class="link">Dance Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-street-show.html" class="link">Street Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-jazz-funk.html" class="link">Jazz Funk</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a href="teachers.html" class="menu__link">Преподаватели</a>
+            </li>
+            <li class="menu__item">
+                <a href="timetable.html" class="menu__link">Расписание</a>
+            </li>
+            <li class="menu__item">
+                <a href="contacts.html" class="menu__link">Контакты</a>
+            </li>
+        </ul>
+        <p>
+            <button type="button" class="menu-button" onclick="openMenu()">☰</button>
+        </p>
+    </header>
+    <main class="main container">
+        <div class="content-styles">
+            <h1 class="main__header">Направления</h1>
+            <p class="text-large">
+                &#171;Люди танцуют, потому что танец может все изменить: одно па может сблизить людей, одно па может заставить тебя поверить в себя, одно па может 
+                освободить целое поколение&#187; Шаг вперед 3D
+            </p>
+        </div>
+        <div class="photo-styles">
+            <div class="photo-styles__one">
+                <p class="name-style">Hip-Hop</p>
+                <a href="style-hip-hop.html" target="_blank" title="ты можешь узнать больше, кликни"><img src="images/dance-styles1.jpg" class="img-style" alt="дети Hip-Hop"></a>
+            </div>
+            <div class="photo-styles__one">
+                <p class="name-style">Dance Show</p>
+                 <a href="style-dance-show.html" target="_blank" title="ты можешь узнать больше, кликни"><img src="images/dance-styles2.jpg" class="img-style" alt="дети Dance Show"></a>
+            </div>
+            <div class="photo-styles__one">
+                <p class="name-style">Break Dance</p>
+                <a href="style-break-dance.html" target="_blank" title="ты можешь узнать больше, кликни"><img src="images/dance-styles3.jpg" class="img-style" alt="дети Break Dance"></a>
+            </div>
+            <div class="photo-styles__one">
+                <p class="name-style">Streat Show</p>
+                <a href="style-street-show.html" target="_blank" title="ты можешь узнать больше, кликни"><img src="images/dance-styles4.jpg" class="img-style" alt="дети Streat Show"></a>
+            </div>
+            <div class="photo-styles__one">
+                <p class="name-style">Baby-Club (3-4 года)</p>
+                <a href="style-baby_club.html" target="_blank" title="ты можешь узнать больше, кликни"><img src="images/dance-styles5.jpg" class="img-style" alt="дети 3-4 года, танец"></a>
+            </div>
+            <div class="photo-styles__one">
+                <p class="name-style">Jazz Funk</p>
+                <a href="style-jazz-funk.html" target="_blank" title="ты можешь узнать больше, кликни"><img src="images/dance-styles6.jpg" class="img-style" alt="дети Jazz Funk"></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper-footer container">
+            <div class="footer__text">
+                <p class="footer__text__header">Наш адрес:</p>
+                <p class="footer__text__main">г. Минск, ул. Немига,3</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Наш телефон:</p>
+                <p class="footer__text__main">+37529-312-05-05</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Мы в социальных сетях:</p>
+                <div class="buttons">
+                    <div class="button"><span class="icon-vk"></span></div>
+                    <div class="button"><span class="icon-instagram"></span></div>
+                    <div class="button"><span class="icon-facebook2"></span></div>
+                </div>
+            </div>
+            <div class="copy">
+                <p class="footer__text__header">2023 &copy;Школа танца &#34;Flash Dance&#34;</p>
+                <p class="footer__text__main">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slider').slick({
+            autoplay: 5000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 1,
+            infinite: true,
+        });
+        function openMenu() {
+            const toOpenMenu = document.getElementById("nav");
+            toOpenMenu.classList.toggle("open");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="logo">
+            <a href="index.html" title="&#127968;" target="_blank">
+                <svg width="110" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="35" fill="#5A98F2" stroke="#233348" style="font-size: 35px;">Flash</text>
+                    <text x="10" y="55" fill="#458FF6" stroke="#233348" style="font-size: 35px;">dance</text>
+                </svg>
+            </a>
+            <p class="logo__text">Школа танца</p>
+        </div>
+        <ul class="menu" id="nav">
+            <li class="menu__item">
+                <a href="about-us.html" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item active">
+                <a href="dance-styles.html" class="menu__link">Направления</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="style-baby_club.html" class="link">Baby-Club</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-hip-hop.html" class="link">Hip-Hop</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-break-dance.html" class="link">Break Dance</a>
+                    </li>
+                    <li class="submenu__item1">
+                    <a href="style-dance-show.html" class="link">Dance Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-street-show.html" class="link">Street Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-jazz-funk.html" class="link">Jazz Funk</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a href="teachers.html" class="menu__link">Преподаватели</a>
+            </li>
+            <li class="menu__item">
+                <a href="timetable.html" class="menu__link">Расписание</a>
+            </li>
+            <li class="menu__item">
+                <a href="contacts.html" class="menu__link">Контакты</a>
+            </li>
+        </ul>
+        <p>
+            <button type="button" class="menu-button" onclick="openMenu()">☰</button>
+        </p>
+    </header>
+    <main class="main container">
+        <h1 class="main__header">Наши преподаватели</h1>
+        <p class="text">
+            Наши тренеры - это важное звено в механизме работы нашей школы танцев. Они предлагают профессиональные методики обучения современному танцу независимо от 
+            направления, выбранного вами. Педагоги знают как найти подход к вашему ребенку, от четырехлеток до своенравных подростков. Кроме того, у всех тренеров есть 
+            опыт работы как в начинающих, так и продолжающих группах. Наши звездные педагоги имеют многолетний опыт работы с детьми, за плечами у них успешные 
+            танцевальные карьеры, многочисленные титулы и звания с международных и республиканских соревнований по танцам в своих дисциплинах, спортивные достижения, 
+            а также звания мастеров спорта. Тренеры продолжают совершенствоваться и сегодня, посещая мастер классы по современным танцевальным направлениям. А детский 
+            танец для них - это не только работа, но и образ и стиль жизни.
+        </p>
+
+        <div class="content-teachers">
+            <div class="teacher">
+                <img src="images/teacher1.jpg" class="teacher__photo" alt="преподаватель Александр Могилев">
+                <p class="teacher__name ">Александр Могилек</p>
+                <div class="teacher__text">
+                    <p class="indents">Направления: современная хореография</p>
+                    <p class="indents">Опыт работы: 10 лет</p>
+                    <p class="indents">Образование: Московский госуниверситет культуры и искусств</p>
+                </div>
+                <ul class="achievements"> Достижения:
+                    <li class="point">победитель проекта &#171;Танцуй!&#187;</li>
+                    <li class="point">руководитель &#171;Русской компании современного танца&#187;</li>
+                    <li class="point">организаторо танцевального фестиваля &#171;Проба №&#187;</li>
+                    <li class="point">хореограф &#171;Танцы на ТНТ&#187;</li>
+                </ul>
+            </div>
+            <div class="teacher">
+                <img src="images/teacher2.jpg" class="teacher__photo" alt="преподаватель Гарик Рудник">
+                <p class="teacher__name ">Гарик Рудникс</p>
+                <div class="teacher__text">
+                    <p class="indents">Направления: Hip-Hop, Break Dance, Jazz Funk</p>
+                    <p class="indents">Опыт работы: 15 лет</p>
+                    <p class="indents">Образование: Московский госуниверситет культуры и искусств</p>
+                    <ul class="achievements"> Достижения:
+                        <li class="point">участник команды &#171;Street Juzz&#187;</li>
+                        <li class="point">хореограф &#171;Евровидения» в Москве в 2009г.&#187;</li>
+                        <li class="point">основатель шоу-балета &#171;ART DOGS&#187;</li>
+                        <li class="point">хореограф &#171;Танцы на ТНТ&#187;</li>
+                        <li class="point">хореограф &#171;Фабрики звезд&#187;</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teacher">
+                <img src="images/teacher3.jpg" class="teacher__photo" alt="преподаватель Артем Блумный">
+                <p class="teacher__name ">Артем Блумный</p>
+                <div class="teacher__text">
+                    <p class="indents">Направления: Hip-Hop, современный эстрадный танец</p>
+                    <p class="indents">Опыт работы: 7 лет</p>
+                    <p class="indents">Образование: Белорусский Государственный Университет Культуры и Искусства</p>
+                    <ul class="achievements"> Достижения:
+                        <li class="point">участник танцевального состава нашумевшего цирка Братьев Запашных &#171;UFO&#187;</li>
+                        <li class="point">солист балета заслуженного коллектива РБ &#171;Крыжачок&#187;</li>
+                        <li class="point">хореограф &#171;Мистер Беларусь»</li>
+                        <li class="point">хореограф &#171;Я пою"</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teacher">
+                <img src="images/teacher4.jpg" class="teacher__photo" alt="преподаватель Мигель">
+                <p class="teacher__name ">Мигельк</p>
+                <div class="teacher__text">
+                    <p class="indents">Направления: Hip-Hop, Break Dance, Jazz Funk, современный эстрадный танец</p>
+                    <p class="indents">Опыт работы: 15 лет</p>
+                    <p class="indents">Образование: Хореографическое училище при Большом театре в Москве</p>
+                    <ul class="achievements"> Достижения:
+                        <li class="point">вудущий хореограф &#171;Танцы на ТНТ&#187;</li>
+                        <li class="point">артист мюзиклов &#171;Метро», &#171;Нотр-Дам де Пари&#187;</li>
+                        <li class="point">режиссер и постановщик для концертов и модных показов</li>
+                        <li class="point">режиссер-постановщик премии &#171;ТЭФИ&#187;</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teacher">
+                <img src="images/teacher6.jpg" class="teacher__photo" alt="преподаватель Алеся Березкина">
+                <p class="teacher__name ">Алеся Березкина</p>
+                <div class="teacher__text">
+                    <p class="indents">Направления: современная хореография</p>
+                    <p class="indents">Опыт работы: 8 лет</p>
+                    <p class="indents">Образование: Белорусский Государственный Университет Культуры и Искусства</p>
+                    <ul class="achievements"> Достижения:
+                        <li class="point">лауреат Международного фестиваля современной хореографии &#171;IFMC&#187;</li>
+                        <li class="point">преподаватель кафедры БГУКи</li>
+                        <li class="point">2 место Dance Fantasy</li>
+                        <li class="point">1 место и Гран-При Free-Time Fest-2017</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teacher">
+                <img src="images/teacher7.jpg" class="teacher__photo" alt="преподаватель Максим Нестерович">
+                <p class="teacher__name ">Максим Нестеровик</p>
+                <div class="teacher__text">
+                    <p class="indents">Направления: Hip-Hop, Break Dance, Jazz Funk</p>
+                    <p class="indents">Опыт работы: 8 лет</p>
+                    <p class="indents">Образование: Московский госуниверситет культуры и искусств</p>
+                    <ul class="achievements"> Достижения:
+                        <li class="point">победитель 2 сезона «Танцы на ТНТ»</li>
+                        <li class="point">лауреат Международного фестиваля в Витебске &#171;Славянский базар&#187;</li>
+                        <li class="point">хореограф в первом сезоне &#171;Танцев на ТНТ&#187;</li>
+                        <li class="point">исполнитель в труппе самой Дженнифер Лопес</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teacher">
+                <img src="images/teacher8.jpg" class="teacher__photo" alt="преподаватель Лидия Сиренька">
+                <p class="teacher__name ">Лидия Сиренька</p>
+                <div class="teacher__text">
+                    <p class="indents">Направления: современная хореография</p>
+                    <p class="indents">Опыт работы: 9 лет</p>
+                    <p class="indents">Образование: Московский госуниверситет культуры и искусств</p>
+                    <ul class="achievements"> Достижения:
+                        <li class="point">хореограф-постановщик Детского театра &#171;Синтез&#187;</li>
+                        <li class="point">балетмейстер и хореограф-постановщик в БГПУ</li>
+                        <li class="point">лауреат фестивального движения стран Балтии и СНГ &#171;Арт-транзит&#187;</li>
+                        <li class="point">гран-при фестиваля &#171;Звездопад 2008&#187; в номинации эстрадный танец</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teacher">
+                <img src="images/teacher9.jpg" class="teacher__photo" alt="преподаватель Мила Синичкина">
+                <p class="teacher__name">Мила Синичкина</p>
+                <div class="teacher__text">
+                    <p class="indents">Направления: Hip-Hop, Break Dance, Jazz Funk</p>
+                    <p class="indents">Опыт работы: 10 лет</p>
+                    <p class="indents">Образование: Белорусский Государственный Университет Культуры и Искусства</p>
+                    <ul class="achievements"> Достижения:
+                        <li class="point">хореограф-постановщик проекта &#171;Ночь Музеев&#187; НХМ РБ</li>
+                        <li class="point">финалистка клубного проекта &#171;Танцевальный нокаут&#187;</li>
+                        <li class="point">финалистка телевизионного конкурса &#171;Танцы на Ru TV&#187; </li>
+                        <li class="point">участница Проекта &#171;Танцы в BHB&#187;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper-footer container">
+            <div class="footer__text">
+                <p class="footer__text__header">Наш адрес:</p>
+                <p class="footer__text__main">г. Минск, ул. Немига,3</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Наш телефон:</p>
+                <p class="footer__text__main">+37529-312-05-05</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Мы в социальных сетях:</p>
+                <div class="buttons">
+                    <div class="button"><span class="icon-vk"></span></div>
+                    <div class="button"><span class="icon-instagram"></span></div>
+                    <div class="button"><span class="icon-facebook2"></span></div>
+                </div>
+            </div>
+            <div class="copy">
+                <p class="footer__text__header">2023 &copy;Школа танца &#34;Flash Dance&#34;</p>
+                <p class="footer__text__main">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slider').slick({
+            autoplay: 5000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 1,
+            infinite: true,
+        });
+        function openMenu() {
+            const toOpenMenu = document.getElementById("nav");
+            toOpenMenu.classList.toggle("open");
+        }
+    </script>
+</body>
+</html>

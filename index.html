@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles/styles.css">
+    
+   
+<head>
+<body>
+    <header class="header container">
+        <div class="logo">
+            <a href="index.html" title="&#127968;" target="_blank">
+                <svg width="110" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="35" fill="#5A98F2" stroke="#233348" style="font-size: 35px;">Flash</text>
+                    <text x="10" y="55" fill="#458FF6" stroke="#233348" style="font-size: 35px;">dance</text>
+                </svg>
+            </a>
+            <p class="logo__text">Школа танца</p>
+        </div>
+        <ul class="menu" id="nav">
+            <li class="menu__item">
+                <a href="about-us.html" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item active">
+                <a href="dance-styles.html" class="menu__link">Направления</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="style-baby_club.html" class="link">Baby-Club</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-hip-hop.html" class="link">Hip-Hop</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-break-dance.html" class="link">Break Dance</a>
+                    </li>
+                    <li class="submenu__item1">
+                    <a href="style-dance-show.html" class="link">Dance Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-street-show.html" class="link">Street Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-jazz-funk.html" class="link">Jazz Funk</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a href="teachers.html" class="menu__link">Преподаватели</a>
+            </li>
+            <li class="menu__item">
+                <a href="timetable.html" class="menu__link">Расписание</a>
+            </li>
+            <li class="menu__item">
+                <a href="contacts.html" class="menu__link">Контакты</a>
+            </li>
+        </ul>
+        <p>
+            <button type="button" class="menu-button" onclick="openMenu()">☰</button>
+        </p>
+    </header>
+    <main class="main container">
+        <div class="school">
+            <div class="school__content">
+                <h1 class="school__name">Школа танцев для детей</h1>
+                <div class="text-large"> 
+                    <p>Танец – это способ достичь красоты, владеть каждым мускулом и направлять его к счастью.</p>
+                    <p class="author">(Морис Бежар – французский танцовщик, балетмейстер)</p>
+                </div>
+                <div class="button-main">
+                    <a href="about-us.html" target="_blank" title="узнай о нас больше" class="button-main__name">Читать далее</a>
+                </div>
+            </div>
+            <div class="school__img">
+                <img src="images/main1.jpg" alt="команда детей">
+            </div>
+        </div>
+        <div class="styles">
+            <h2 class="main__header">Направления танцев</h2>
+            <div class="text-large">
+                Танцевальный мир меняется и регулярно пополняется новыми видами танцев. Свежие музыкальные стили, песни и клубные движения становятся основой для развития новых танцевальных направлений. 
+                Узнать виды современных танцев и отточить их движения вы можете в танцевальном клубе &#171;Flash Danse&#187;. Наши преподаватели владеют многими современными стилями.
+            </div>
+            <div class="styles__gallery">
+                <div class="dance-style s1">
+                    <img src="images/main2.jpg" class="dance-style__img" alt="дети Hip-Hop">
+                    <p class="dance-style__name">
+                        <a href="style-hip-hop.html" target="_blank" title="кликни и узнай больше" class="dance-style__style">Hip-Hop</a>
+                    </p>
+                </div>
+                <div class="dance-style s2">
+                    <img src="images/main3.jpg" class="dance-style__img" alt="дети Dance Show">
+                    <p class="dance-style__name">
+                        <a href="style-dance-show.html" target="_blank" title="кликни и узнай больше" class="dance-style__style">Dance Show</a>
+                    </p>
+                </div>
+                <div class="dance-style s3">
+                    <img src="images/main4.jpg" class="dance-style__img" alt="дети Break Dance">
+                    <p class="dance-style__name">
+                        <a href="style-break-dance.html" target="_blank" title="кликни и узнай больше" class="dance-style__style">Break Dance</a>
+                    </p>
+                </div>
+                <div class="dance-style s4">
+                    <img src="images/main5.jpg" class="dance-style__img" alt="дети 3-4 года, танец">
+                    <p class="dance-style__name">
+                        <a href="style-baby_club.html" target="_blank" title="кликни и узнай больше" class="dance-style__style">Baby-Club (3-4 года)</a>
+                    </p>
+                </div>
+                <div class="dance-style s5">
+                    <img src="images/main6.png" class="dance-style__img" alt="дети Streat Show">
+                    <p class="dance-style__name">
+                        <a href="style-street-show.html" target="_blank" title="кликни и узнай больше" class="dance-style__style">Street Show</a>
+                    </p>
+                </div>
+                <div class="dance-style s6">
+                    <img src="images/main7.jpg" class="dance-style__img" alt="дети Jazz funk">
+                    <p class="dance-style__name">
+                        <a href="style-jazz-funk.html" target="_blank" title="кликни и узнай больше" class="dance-style__style">Jazz Funk</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="frame">
+            <p class="text-large">
+                Наша миссия — привнести в жизнь учеников танцевальное искусство, оказать позитивное влияние на жизнь наших танцоров независимо от их возраста и 
+                способностей, следовать передовым исследованиям в формах танцевального искусства, помочь раскрыться и поверить в себя.
+            </p>
+        </div>
+        <h1 class="main__header">Наша команда</h1>
+        <p class="text-large">
+            У нас только лучшие преподаватели. Лучшие, которые не останавливаются на достигнутом, которые постоянно в движении - в прямом и переносном смысле 
+            :). У всех хореографическое, педагогическое или физкультурное образование. Мы умеем не только танцевать, но и преподавать. 
+        </p>
+        <div class="teachers-gallery">
+            <div class="photo-img">
+                <img src="images/teacher1.jpg" alt="преподаватель Александр Могилев">
+                <div class="information">
+                    <p class="inscription">Александр Могилек</p>
+                    <p class="inscription">современная хореография</p>
+                </div>
+            </div>
+            <div class="photo-img">
+                <img src="images/teacher4.jpg"  alt="преподаватель Мигель">
+                <div class="information">
+                    <p class="inscription">Мигельк</p>
+                    <p class="inscription">Hip-Hop, Break Dance, Jazz Funk, современный эстрадный танец</p>
+                </div>
+            </div>
+            <div class="photo-img">
+                <img src="images/teacher2.jpg" alt="преподаватель Гарик Рудник">
+                <div class="information">
+                    <p class="inscription">Гарик Рудникс</p>
+                    <p class="inscription">Hip-Hop, Break Dance, Jazz Funk</p>
+                </div>
+            </div>
+            <div class="photo-img">
+                <img src="images/teacher3.jpg"  alt="преподаватель Артем Блумный">
+                <div class="information">
+                    <p class="inscription">Артем Блумный</p>
+                    <p class="inscription">Hip-Hop, современный эстрадный танец</p>
+                </div>
+            </div>
+            <div class="photo-img">
+                <img src="images/teacher7.jpg"  alt="преподаватель Максим Нестерович">
+                <div class="information">
+                    <p class="inscription">Максим Нестеровик</p>
+                    <p class="inscription">Hip-Hop, Break Dance, Jazz Funk</p>
+                </div>
+            </div>
+            <div class="photo-img">
+                <img src="images/teacher9.jpg" alt="преподаватель Мила Синичкина">
+                <div class="information">
+                    <p class="inscription">Мила Синичкина</p>
+                    <p class="inscription">Hip-Hop, Break Dance, Jazz Funk</p>
+                </div>
+            </div>
+            <div class="photo-img">
+                <img src="images/teacher6.jpg" alt="преподаватель Алеся Березкина">
+                <div class="information">
+                    <p class="inscription">Алеся Березкина</p>
+                    <p class="inscription">современная хореография</p>
+                </div>
+            </div>
+            <div class="photo-img">
+                <img src="images/teacher8.jpg" alt="преподаватель Лидия Сиренька">
+                <div class="information">
+                    <p class="inscription">Лидия Сиренька</p>
+                    <p class="inscription">современная хореография</p>
+                </div>
+            </div>  
+        </div>
+        <div class="slider">
+            <div class="slide">
+                <div>
+                    <div class="slide__header__name"> То, что о нас говорят</div>
+                    <div class="slide__header__line"></div>
+                </div>
+                <div class="slide__photo">
+                        <img src="images/reviews2.jpg" alt="аватарка"> 
+                </div>
+                <div class="slide__name">Люся Летняя</div>
+                <div class="slide__text">&#34;Отличная школа танцев для детей, вожу сюда дочь уже 2 года, самые приятные ощущения, внимательные преподаватели, 
+                    высокий уровень обучения.&#34;</div>
+            </div>
+            <div class="slide">
+                <div>
+                    <div class="slide__header__name"> То, что о нас говорят</div>
+                    <div class="slide__header__line"></div>
+                </div>
+                <div class="slide__photo">
+                    <img src="images/reviews1.jpg" alt="аватарка"> 
+                </div>
+                <div class="slide__name">Алексей Смирнов</div>
+                <div class="slide__text">&#34;Двое детей занимаются танцами, оба довольны, особенно радуют отчетные концерты, рекомендую.&#34;</div>
+            </div>
+            <div class="slide">
+                <div>
+                    <div class="slide__header__name"> То, что о нас говорят</div>
+                    <div class="slide__header__line"></div>
+                </div>
+                <div class="slide__photo">
+                    <img src="images/reviews3.jpg" alt="аватарка"> 
+                </div>
+                <div class="slide__name">Мишка Носов</div>
+                <div class="slide__text">&#34;Школа шикарная, особый респект Мигелю, преподователь супер, занимаюсь 5 лет с удовольствием, 
+                    постоянно участвуем в соревнованиях с отличными результатами.&#34;</div>
+            </div>
+            <div class="slide">
+                <div>
+                    <div class="slide__header__name"> То, что о нас говорят</div>
+                    <div class="slide__header__line"></div>
+                </div>
+                <div class="slide__photo">
+                    <img src="images/reviews4.jpg" alt="аватарка"> 
+                </div>
+                <div class="slide__name">Борис Питкин</div>
+                <div class="slide__text">&#34;Очень рекомендую эту школу танцев, дочка в восторге, постоянные победы на соревнованиях, лучшие преподователи.&#34;</div>
+            </div>
+            <div class="slide">
+                <div>
+                    <div class="slide__header__name"> То, что о нас говорят</div>
+                    <div class="slide__header__line"></div>
+                </div>
+                <div class="slide__photo">
+                    <img src="images/reviews5.jpg" alt="аватарка"> 
+                </div>
+                <div class="slide__name">Ася Брусничкина</div>
+                <div class="slide__text">&#34;Хочу выразит огромную благодарность преподавателям &#34;Flash Dance&#34; за их старания и превосходные педогогические 
+                    навыки, самые креативные и потрясающие постановки вы найдете только у них, рекомендую.&#34;</div>
+            </div>
+            <div class="slide">
+                <div>
+                    <div class="slide__header__name"> То, что о нас говорят</div>
+                    <div class="slide__header__line"></div>
+                </div>
+                <div class="slide__photo">
+                    <img src="images/reviews6.jpg" alt="аватарка"> 
+                </div>
+                <div class="slide__name">Евгений Пиратский</div>
+                <div class="slide__text">&#34;Ребята, тут очень круто, мой сын за год стал просто шикарным танцором, на треньки бежит, быстрее чем за комп. Не 
+                    думайте, приводите детей сюда.&#34;</div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper-footer container">
+            <div class="footer__text">
+                <p class="footer__text__header">Наш адрес:</p>
+                <p class="footer__text__main">г. Минск, ул. Немига,3</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Наш телефон:</p>
+                <p class="footer__text__main">+37529-312-05-05</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Мы в социальных сетях:</p>
+                <div class="buttons">
+                    <div class="button"><span class="icon-vk"></span></div>
+                    <div class="button"><span class="icon-instagram"></span></div>
+                    <div class="button"><span class="icon-facebook2"></span></div>
+                </div>
+            </div>
+            <div class="copy">
+                <p class="footer__text__header">2023 &copy;Школа танца &#34;Flash Dance&#34;</p>
+                <p class="footer__text__main">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slider').slick({
+            autoplay: 5000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 1,
+            infinite: true,
+        });
+        function openMenu() {
+            const toOpenMenu = document.getElementById("nav");
+            toOpenMenu.classList.toggle("open");
+        }
+    </script>
+</body>
+</html>

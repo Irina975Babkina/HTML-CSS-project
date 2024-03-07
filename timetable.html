@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="logo">
+            <a href="index.html" title="&#127968;" target="_blank">
+                <svg width="110" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="35" fill="#5A98F2" stroke="#233348" style="font-size: 35px;">Flash</text>
+                    <text x="10" y="55" fill="#458FF6" stroke="#233348" style="font-size: 35px;">dance</text>
+                </svg>
+            </a>
+            <p class="logo__text">Школа танца</p>
+        </div>
+        <ul class="menu" id="nav">
+            <li class="menu__item">
+                <a href="about-us.html" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item active">
+                <a href="dance-styles.html" class="menu__link">Направления</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="style-baby_club.html" class="link">Baby-Club</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-hip-hop.html" class="link">Hip-Hop</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-break-dance.html" class="link">Break Dance</a>
+                    </li>
+                    <li class="submenu__item1">
+                    <a href="style-dance-show.html" class="link">Dance Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-street-show.html" class="link">Street Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-jazz-funk.html" class="link">Jazz Funk</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a href="teachers.html" class="menu__link">Преподаватели</a>
+            </li>
+            <li class="menu__item">
+                <a href="timetable.html" class="menu__link">Расписание</a>
+            </li>
+            <li class="menu__item">
+                <a href="contacts.html" class="menu__link">Контакты</a>
+            </li>
+        </ul>
+        <p>
+            <button type="button" class="menu-button" onclick="openMenu()">☰</button>
+        </p>
+    </header>
+    <main class="main container">
+        <div class="main__header">Расписание</div>
+            <div class="timetable-img">
+                <img src="images/time1.jpg" alt="девочка на шпагате">
+            </div>
+        </div>
+        <table class="timetable">
+            <thead>
+                <tr>
+                    <th class="name-cell">Направление</th>
+                    <th class="name-cell">Возраст</th>
+                    <th class="name-cell">Понедельник</th>
+                    <th class="name-cell">Вторник</th>
+                    <th class="name-cell">Среда</th>
+                    <th class="name-cell">Четверг</th>
+                    <th class="name-cell">Пятница</th>
+                    <th class="name-cell">Суббота</th>
+                    <th class="name-cell">Преподаватель</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" class="cell color">Baby-Club</td>
+                    <td class="cell color">3-4 года</td>
+                    <td class="cell color">18:00-18:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color">18:00-18:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color ">Алеся Березкина</td>
+                </tr>
+                <tr>
+                    <td class="cell">3-4 года</td>
+                    <td class="cell"></td>
+                    <td class="cell">18:00-18:45</td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell">12:00-12:45</td>
+                    <td class="cell">Лидия Сиренька</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="cell">Hip-Hop</td>
+                    <td class="cell color">5-6 лет</td>
+                    <td class="cell color"></td>
+                    <td class="cell color">19:00-19:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color">19:00-19:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color">Гарик Рудник</td>
+                </tr>
+                <tr>
+                    <td class="cell">8-10 лет</td>
+                    <td class="cell">19:00-19:45</td>
+                    <td class="cell"></td>
+                    <td class="cell">19:00-19:45</td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell">Мигель</td>
+                </tr>
+                <tr>
+                    <td class="cell color">11-17 лет</td>
+                    <td class="cell color">17:00-17:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color">17:00-17:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color">Мигель</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="cell color">Break Dance</td>
+                    <td class="cell">6-10 лет</td>
+                    <td class="cell">17:00-17:45</td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell">17:00-17:45</td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell">Максим Нестерович</td>
+                </tr>
+                <tr>
+                    <td class="cell color">11-17 лет</td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color">13:00-14:30</td>
+                    <td class="cell color">Гарик Рудник</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="cell ">Dance Show</td>
+                    <td class="cell">5-7 лет</td>
+                    <td class="cell">19:00-19:45</td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell">19:00-19:45</td>
+                    <td class="cell"></td>
+                    <td class="cell">Артем Блумный</td>
+                </tr>
+                <tr>
+                    <td class="cell color">8-10 лет</td>
+                    <td class="cell color"></td>
+                    <td class="cell color">19:00-19:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color">19:00-19:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color">Александр Могилев</td>
+                </tr>
+                <tr>
+                    <td class="cell">10-17 лет</td>
+                    <td class="cell"></td>
+                    <td class="cell">16:00-16:45</td>
+                    <td class="cell"></td>
+                    <td class="cell">16:00-16:45</td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell">Алеся Березкина</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="cell color">Street Show</td>
+                    <td class="cell color">6-10 лет</td>
+                    <td class="cell color">18:00-18:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color">18:00-18:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color">Мила Синичкина</td>
+                </tr>
+                <tr>
+                    <td class="cell">11-17 лет</td>
+                    <td class="cell"></td>
+                    <td class="cell">18:00-18:45</td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell">11:00-11:45</td>
+                    <td class="cell">Гарик Рудник</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="cell">Jazz Funk</td>
+                    <td class="cell color">8-10 лет</td>
+                    <td class="cell color"></td>
+                    <td class="cell color">16:00-16:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color"></td>
+                    <td class="cell color">16:00-16:45</td>
+                    <td class="cell color"></td>
+                    <td class="cell color">Гарик Рудник</td>
+                </tr>
+                <tr>
+                    <td class="cell">11-17 лет</td>
+                    <td class="cell"></td>
+                    <td class="cell">20:00-20:45</td>
+                    <td class="cell"></td>
+                    <td class="cell"></td>
+                    <td class="cell">20:00-20:45</td>
+                    <td class="cell"></td>
+                    <td class="cell">Мила Синичкина</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="timetable-adaptability">
+            <div class="timetable-part">
+                <h2 class="timetable-part__name average__header">Baby-Club</h2>
+                <div class="timetable-part__content">
+                    <img src="images/teacher6.jpg" class="teacher__photo" alt="преподаватель Алеся Березкина">
+                    <p class="text-large center">Алеся Березкина</p>
+                    <p class="text-large center">3-4 года</p>
+                    <p class="text-large center">Пн:18:00-18:45</p>
+                    <p class="text-large center">Ср:18:00-18:45</p>
+                </div>
+                <div class="timetable-part_content">
+                    <img src="images/teacher8.jpg" class="teacher__photo" alt="преподаватель Лидия Сиренька">
+                    <p class="text-large center">Лидия Сиренька</p>
+                    <p class="text-large center">3-4 года</p>
+                    <p class="text-large center">Вт:18:00-18:45</p>
+                    <p class="text-large center">Сб:12:00-12:45</p>
+                </div>
+            </div> 
+            <div class="timetable-part three-teachers">
+                <h2 class="timetable-part__name average__header">Hip-Hop</h2>
+                <div class="timetable-part__content">
+                    <img src="images/teacher2.jpg" class="teacher__photo" alt="преподаватель Гарик Рудник">
+                    <p class="text-large center">Гарик Рудник</p>
+                    <p class="text-large center">5-6 лет</p>
+                    <p class="text-large center">Вт:19:00-19:45</p>
+                    <p class="text-large center">Чт:19:00-19:45</p>
+                </div>
+                <div class="timetable-part_content">
+                    <img src="images/teacher4.jpg" class="teacher__photo" alt="преподаватель Мигель">
+                    <p class="text-large center">Мигель</p>
+                    <p class="text-large center">8-10 лет</p>
+                    <p class="text-large center">Пн:19:00-19:45</p>
+                    <p class="text-large center">Ср:19:00-19:45</p>
+                </div>
+                <div class="timetable-part_content">
+                    <img src="images/teacher4.jpg" class="teacher__photo" alt="преподаватель Мигель">
+                    <p class="text-large center">Мигель</p>
+                    <p class="text-large center">11-17 лет</p>
+                    <p class="text-large center">Пн:17:00-17:45</p>
+                    <p class="text-large center">Ср:17:00-17:45</p>
+                </div>
+            </div> 
+            <div class="timetable-part">
+                <h2 class="timetable-part__name average__header">Break Dance</h2>
+                <div class="timetable-part__content">
+                    <img src="images/teacher7.jpg" class="teacher__photo" alt="преподаватель Максим Нестерович">
+                    <p class="text-large center">Максим Нестерович</p>
+                    <p class="text-large center">6-10 лет</p>
+                    <p class="text-large center">Пн:17:00-17:45</p>
+                    <p class="text-large center">Чт:17:00-17:45</p>
+                </div>
+                <div class="timetable-part__content">
+                    <img src="images/teacher2.jpg" class="teacher__photo" alt="преподаватель Гарик Рудник">
+                    <p class="text-large center">Гарик Рудник</p>
+                    <p class="text-large center">11-17 лет</p>
+                    <p class="text-large center">Сб:13:00-14:30</p>
+                </div>
+            </div> 
+            <div class="timetable-part three-teachers">
+                <h2 class="timetable-part__name average__header">Dance Show</h2>
+                <div class="timetable-part__content">
+                    <img src="images/teacher3.jpg" class="teacher__photo" alt="преподаватель Артем Блумный">
+                    <p class="text-large center">Артем Блумный</p>
+                    <p class="text-large center">5-7 лет</p>
+                    <p class="text-large center">Пн:19:00-19:45</p>
+                    <p class="text-large center">Пт:19:00-19:45</p>
+                </div>
+                <div class="timetable-part_content">
+                    <img src="images/teacher1.jpg" class="teacher__photo" alt="преподаватель Александр Могилев">
+                    <p class="text-large center">Александр Могилев</p>
+                    <p class="text-large center">8-10 лет</p>
+                    <p class="text-large center">Вт:19:00-19:45</p>
+                    <p class="text-large center">Чт:19:00-19:45</p>
+                </div>
+                <div class="timetable-part__content">
+                    <img src="images/teacher6.jpg" class="teacher__photo" alt="преподаватель Алеся Березкина">
+                    <p class="text-large center">Алеся Березкина</p>
+                    <p class="text-large center">10-17 лет</p>
+                    <p class="text-large center">Вт:16:00-16:45</p>
+                    <p class="text-large center">Чт:16:00-16:45</p>
+                </div>
+            </div> 
+            <div class="timetable-part">
+                <h2 class="timetable-part__name average__header">Street Show</h2>
+                <div class="timetable-part__content">
+                    <img src="images/teacher9.jpg" class="teacher__photo" alt="преподаватель Мила Синичкина">
+                    <p class="text-large center">Мила Синичкина</p>
+                    <p class="text-large center">6-10 лет</p>
+                    <p class="text-large center">Пн:18:00-18:45</p>
+                    <p class="text-large center">Чт:18:00-18:45</p>
+                </div>
+                <div class="timetable-part__content">
+                    <img src="images/teacher2.jpg" class="teacher__photo" alt="преподаватель Гарик Рудник">
+                    <p class="text-large center">Гарик Рудник</p>
+                    <p class="text-large center">11-17 лет</p>
+                    <p class="text-large center">Вт:18:00-18:45</p>
+                    <p class="text-large center">Сб:11:00-11:45</p>
+                </div>
+            </div> 
+            <div class="timetable-part">
+                <h2 class="timetable-part__name average__header">Jazz Funk</h2>
+                <div class="timetable-part__content">
+                    <img src="images/teacher2.jpg" class="teacher__photo" alt="преподаватель Гарик Рудник">
+                    <p class="text-large center">Гарик Рудник</p>
+                    <p class="text-large center">8-10 лет</p>
+                    <p class="text-large center">Вт:16:00-16:45</p>
+                    <p class="text-large center">Чт:16:00-16:45</p>
+                </div>
+                <div class="timetable-part__content">
+                    <img src="images/teacher9.jpg" class="teacher__photo" alt="преподаватель Мила Синичкина">
+                    <p class="text-large center">Мила Синичкина</p>
+                    <p class="text-large center">11-17 лет</p>
+                    <p class="text-large center">Вт:20:00-20:45</p>
+                    <p class="text-large center">Чт:20:00-20:45</p>
+                </div>
+            </div> 
+        </div>
+       
+        
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper-footer container">
+            <div class="footer__text">
+                <p class="footer__text__header">Наш адрес:</p>
+                <p class="footer__text__main">г. Минск, ул. Немига,3</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Наш телефон:</p>
+                <p class="footer__text__main">+37529-312-05-05</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Мы в социальных сетях:</p>
+                <div class="buttons">
+                    <div class="button"><span class="icon-vk"></span></div>
+                    <div class="button"><span class="icon-instagram"></span></div>
+                    <div class="button"><span class="icon-facebook2"></span></div>
+                </div>
+            </div>
+            <div class="copy">
+                <p class="footer__text__header">2023 &copy;Школа танца "Flash Dance"</p>
+                <p class="footer__text__main">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slider').slick({
+            autoplay: 5000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 1,
+            infinite: true,
+        });
+        function openMenu() {
+            const toOpenMenu = document.getElementById("nav");
+            toOpenMenu.classList.toggle("open");
+        }
+    </script>
+</body>
+</html>

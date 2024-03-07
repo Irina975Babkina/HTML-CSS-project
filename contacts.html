@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles/styles.css">
+   
+<head>
+<body>
+
+    <header class="header container">
+        <div class="logo">
+            <a href="index.html" title="&#127968;" target="_blank">
+                <svg width="110" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="35" fill="#5A98F2" stroke="#233348" style="font-size: 35px;">Flash</text>
+                    <text x="10" y="55" fill="#458FF6" stroke="#233348" style="font-size: 35px;">dance</text>
+                </svg>
+            </a>
+            <p class="logo__text">Школа танца</p>
+        </div>
+        <ul class="menu" id="nav">
+            <li class="menu__item">
+                <a href="about-us.html" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item active">
+                <a href="dance-styles.html" class="menu__link">Направления</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="style-baby_club.html" class="link">Baby-Club</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-hip-hop.html" class="link">Hip-Hop</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-break-dance.html" class="link">Break Dance</a>
+                    </li>
+                    <li class="submenu__item1">
+                    <a href="style-dance-show.html" class="link">Dance Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-street-show.html" class="link">Street Show</a>
+                    </li>
+                    <li class="submenu__item1">
+                        <a href="style-jazz-funk.html" class="link">Jazz Funk</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a href="teachers.html" class="menu__link">Преподаватели</a>
+            </li>
+            <li class="menu__item">
+                <a href="timetable.html" class="menu__link">Расписание</a>
+            </li>
+            <li class="menu__item">
+                <a href="contacts.html" class="menu__link">Контакты</a>
+            </li>
+        </ul>
+        <p>
+            <button type="button" class="menu-button" onclick="openMenu()">☰</button>
+        </p>
+    </header>
+    <main class="main container">
+        <h1 class="main__header">Контакты</h1>
+        <div class="contacts">
+            <div class="contacts__information">
+                <p class="text-contacts">Наши контакты:</p>
+                <p class="text-large">+37529-312-05-05</p>
+                <p class="text-large">г. Минск, ул. Немига,3</p>
+                <p class="text-large">5 минут от ст.м. Немига</p>
+                <p>
+                    <button type="button" class="registration" id="registration" onclick="openModalWindow();">Записаться</button>
+                </p>
+            </div>
+            <p class="contacts__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4701.141618119183!2d27.551713!3d53.903832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfeba0413c91%3A0xe0fb783d2af93747!2z0YPQuy4g0J3QtdC80LjQs9CwIDMsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1681852948977!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+        </div>   
+        <div class="shadow" id="shadow"></div>
+        <form class="modal-form" id="modal-form">
+            <fieldset>
+                <button type="button" onclick="closeModalWindow();" class="close">🗙</button>
+                <h1 class="main__header">Запись в группу</h1>
+        
+                <div class="form-group">
+                    <label for="name" class="name-field">Введите Ваше имя:</label>
+                    <div class="form-field">
+                        <input id="name" class="input-line form-control" name="text" placeholder="Введите Ваше имя" type="text" autofocus minlength="3" 
+                        maxlength="15">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" class="name-field">Телефон:</label>
+                    <div class="form-field">
+                        <input id="phone" class="input-line form-control" name="phone" pattern="+375[0-9]{7}" placeholder="Введите номер телефона" type="tel">
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="name-chid" class="name-field">Введите имя Ребенка:</label>
+                    <div class="form-field">
+                        <input id="name-chid" class="input-line" name="text" placeholder="Введите имя Ребенка" type="text" autofocus minlength="3" 
+                        maxlength="15"> 
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="age" class="name-field">Введите возраст Ребенка:</label>
+                    <div class="form-field">
+                        
+                        <input id="name-chid" class="input-line small form-control" name="text" placeholder="Введите имя Ребенка" type="number" value="10" step="1" min="3" max="17">
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="select" class="name-field">Выберите стиль</label>
+                    <div class="form-field">
+                        <select id="select" name="select" class="input-line form-control">
+                            <option value="value1">Baby-Club</option>
+                            <option value="value2">Hip-Hop</option>
+                            <option value="value3">Break Dance</option>
+                            <option value="value4">Dance Show</option>
+                            <option value="value5">Street Show</option>
+                            <option value="value6">Jazz Funk</option>
+                        </select>
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="textarea" class="name-field">Сообщение:</label>
+                    <div class="form-field1">
+                        <textarea id="textarea" class="input-line textarea form-control" name="textarea" placeholder="Текст сообщения" type="text"></textarea>
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <div class="form-field">
+                        <button id="button-form" class="button-form" name="button-form" type="submit">Отправить</button>
+                    </div>
+                </div>
+        
+            </fieldset>  
+        </div>
+        </html> 
+    </main>
+    <footer class="footer">
+        <div class="wrapper-footer container">
+            <div class="footer__text">
+                <p class="footer__text__header">Наш адрес:</p>
+                <p class="footer__text__main">г. Минск, ул. Немига,3</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Наш телефон:</p>
+                <p class="footer__text__main">+37529-312-05-05</p>
+            </div>
+            <div class="footer__text">
+                <p class="footer__text__header">Мы в социальных сетях:</p>
+                <div class="buttons">
+                    <div class="button"><span class="icon-vk"></span></div>
+                    <div class="button"><span class="icon-instagram"></span></div>
+                    <div class="button"><span class="icon-facebook2"></span></div>
+                </div>
+            </div>
+            <div class="copy">
+                <p class="footer__text__header">2023 &copy;Школа танца &#34;Flash Dance&#34;</p>
+                <p class="footer__text__main">Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slider').slick({
+            autoplay: 5000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 1,
+            infinite: true,
+        });
+        function openMenu() {
+            const toOpenMenu = document.getElementById("nav");
+            toOpenMenu.classList.toggle("open");
+        }
+        function openModalWindow() {
+            const shadow = document.getElementById("shadow");
+            const modal = document.getElementById("modal-form");
+            shadow.classList.add("opened");
+            modal.classList.add("opened");
+        }
+        function closeModalWindow() {
+            const shadow = document.getElementById("shadow");
+            const modal = document.getElementById("modal-form");
+            shadow.classList.remove("opened");
+            modal.classList.remove("opened");
+        }
+    </script>
+</body>
+</html>
